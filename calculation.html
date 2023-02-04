@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calclator</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <script src="./js/sciptCalc.js"></script>
+    <form  name="myForm" method="post">
+        <div class="container">
+            <div class="div-Result">
+                <input type="text" name="Result" value="0">
+            </div>
+            <div class="div-btns">
+                <!-- <input type="button" name="btn_%" value="%" disabled onclick="myFunction()">
+                <input type="button" name="btn_CE" value="CE" disabled onclick="myFunction()"> -->
+                <input type="button" name="btn_7" value="7" onclick="myFunction(7)">
+                <input type="button" name="btn_8" value="8" onclick="myFunction(8)">
+                <input type="button" name="btn_9" value="9" onclick="myFunction(9)">
+                <input type="button" name="btn_/" value="/" onclick="myFunction('/')">
+                
+                <input type="button" name="btn_4" value="4" onclick="myFunction(4)">
+                <input type="button" name="btn_5" value="5" onclick="myFunction(5)">
+                <input type="button" name="btn_6" value="6" onclick="myFunction(6)">
+               <input type="button" name="btn_*" value="*" onclick="myFunction('*')">
+                <input type="button" name="btn_1" value="1" onclick="myFunction(1)">
+                <input type="button" name="btn_2" value="2" onclick="myFunction(2)">
+                <input type="button" name="btn_3" value="3" onclick="myFunction(3)">
+                <input type="button" name="btn_-" value="-" onclick="myFunction('-')">
+                <input type="button" name="btn_0" value="0" onclick="myFunction(0)">
+                <input type="button" name="btn_." value="."  onclick="myFunction('.')">
+                <input type="button" class="red" name="btn_C" value="Clear"  onclick="FunReset()">
+            
+                
+                 
+                
+                
+                <!-- <input type="button" name="btn_plusMinus" value="+/-" disabled onclick="myFunction()"> -->
+               
+               <input type="button" name="btn_+" value="+" onclick="myFunction('+')">
+                <input type="button" class="green"  name="btn_=" value="=" onclick="FunCalc()">
+
+            </div>
+
+        </div>
+    </form>
+
+</body>
+
+</html>
